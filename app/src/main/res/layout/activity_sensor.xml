@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".SensorActivity"
+    android:id="@+id/bdgView"
+    >
+
+ <TextView
+    android:id="@+id/mheading"
+    android:text="@string/hello_world"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:textSize="@dimen/abc_text_size_large_material" />
+<TextView
+    android:text="Linear x:"
+    android:id="@+id/linearX"
+    android:layout_width="150dp"
+    android:layout_height="30dp"
+    android:layout_below="@id/mheading"
+    android:layout_alignParentBottom="false"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:textSize="@dimen/abc_text_size_large_material" />
+<TextView
+    android:text="Linear y:"
+    android:id="@+id/linearY"
+    android:layout_width="150dp"
+    android:layout_height="30dp"
+    android:layout_below="@id/linearX"
+    android:layout_alignParentEnd="false"
+    android:textSize="@dimen/abc_text_size_large_material" />
+<TextView
+    android:text="Linear z:"
+    android:id="@+id/linearZ"
+    android:layout_width="150dp"
+    android:layout_height="30dp"
+    android:layout_below="@id/linearY"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:textSize="@dimen/abc_text_size_large_material" />
+<TextView
+    android:text="Output 3:"
+    android:id="@+id/output3"
+    android:layout_width="150dp"
+    android:layout_height="30dp"
+    android:layout_below="@id/linearZ"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:textSize="@dimen/abc_text_size_large_material" />
+<TextView
+    android:text="Output 4:"
+    android:id="@+id/output4"
+    android:layout_width="150dp"
+    android:layout_height="30dp"
+    android:layout_below="@id/output3"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:textSize="@dimen/abc_text_size_large_material" />
+
+<com.ccornelius.example.sensordemoapp.CompassView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/output4"
+    android:id="@+id/graphArea"
+    android:layout_alignParentLeft="true"
+    android:minHeight="300dp" />
+
+<ImageView
+    android:layout_width="200dp"
+    android:layout_height="90dp"
+    android:id="@+id/colorBox"
+    android:layout_toRightOf="@+id/linearX"
+    android:layout_toEndOf="@+id/linearX"
+    android:layout_alignBottom="@+id/linearZ"
+    android:layout_alignParentTop="true" />
+
+</RelativeLayout>
+

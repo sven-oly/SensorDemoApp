@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SensorDemo</string>
+    <string name="hello_world">Acceleration!</string>
+    <string name="orientation_mode">Orientation!</string>
+    <string name="linear_mode">Linear!</string>
+    <string name="rotation_mode">Rotation!</string>
+    <string name="rotation_vector_mode">Rotation vector!</string>
+    <string name="magnetic_mode">Magnetic!</string>
+    <string name="proximity_mode">Proximity!</string>
+    <string name="pressure_mode">Pressure!</string>
+    <string name="light_mode">Ambient light!</string>
+    <string name="humidity_mode">Humidity!</string>
+    <string name="action_settings">Settings</string>
+
+    proximity_mode    <string name="title_activity_three_d">ThreeDActivity</string>
+
+</resources>

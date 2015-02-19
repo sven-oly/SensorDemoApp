@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".SensorActivity">
+
+<item android:id="@+id/set_orientation" android:title="@string/orientation_mode"
+    android:orderInCategory="100" app:showAsAction="never" />    <item android:id="@+id/set_linear" android:title="@string/linear_mode"
+    android:orderInCategory="100" app:showAsAction="never" />
+<item android:id="@+id/set_rotation" android:title="@string/rotation_mode"
+    android:orderInCategory="100" app:showAsAction="never" />
+<item android:id="@+id/set_magnetic" android:title="@string/magnetic_mode"
+    android:orderInCategory="100" app:showAsAction="never" />
+<item android:id="@+id/set_rotation_vector" android:title="@string/rotation_vector_mode"
+    android:orderInCategory="100" app:showAsAction="never" />
+<item android:id="@+id/set_light" android:title="@string/light_mode"
+    android:orderInCategory="100" app:showAsAction="never" />
+<item android:id="@+id/set_proximity" android:title="@string/proximity_mode"
+    android:orderInCategory="100" app:showAsAction="never" />
+<item android:id="@+id/set_pressure" android:title="@string/pressure_mode"
+    android:orderInCategory="100" app:showAsAction="never" />
+<item android:id="@+id/set_humidity" android:title="@string/humidity_mode"
+    android:orderInCategory="100" app:showAsAction="never" />
+</menu>
